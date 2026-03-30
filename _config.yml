@@ -3,7 +3,7 @@
 
 title: Baby Bloom Photography
 description: Bay is a minimal Jekyll Theme.
-baseurl: ""
+baseurl: "/photo-website"
 url: "https://www.babybloomphotography.com"
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-XXXXXXXXX-X"
