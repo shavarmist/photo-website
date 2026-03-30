@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: shavarmist/photo-website
+  branch: main
+
+# Optional but recommended
+media_folder: "assets/"
+public_folder: "/assets/"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
