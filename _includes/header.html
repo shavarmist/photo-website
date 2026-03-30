@@ -15,9 +15,7 @@
             {% assign page_link = "/" | append: page.name | downcase %}
           {% endif %}
           {% assign page_link = page_link | absolute_url %}
-          <a class="page-link" href="{{ page_link }}">
-            {{- page.name -}}
-          </a>
+          <a class="page-link" href="{{ page_link }}"> {{- page.name -}} </a>
         {% endfor %}
       </div>
     </nav>
