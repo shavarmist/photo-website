@@ -4,16 +4,18 @@
 
 @charset "utf-8";
 
-@use "variables" with (
-  $base-url: "{{ site.baseurl }}"
-);
-@use "mixins";
-@use "extends";
+// Override variables BEFORE importing them
+$base-url: "{{ site.baseurl }}";
 
-@use "base";
-@use "layout";
-@use "site";
-@use "work";
-@use "blog";
-@use "post";
-@use "not_found";
+// Import partials (old Sass syntax for GitHub Pages compatibility)
+@import "variables";
+@import "mixins";
+@import "extends";
+
+@import "base";
+@import "layout";
+@import "site";
+@import "work";
+@import "blog";
+@import "post";
+@import "not_found";
