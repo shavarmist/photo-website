@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {% if page.title %}
+	  <h1 class="page-header">{{ page.title }}</h1>
+	{% endif %}
+        {{ content }}
+<form id="contact-form">
+				<table>
+					<tbody>
+						<tr>
+							<th> Ime i prezime </th>
+							<th> <input type="text" name="name"
+								style="width: 100%"> </th>
+						</tr>
+						<tr>
+							<th> E mail adresa </th>
+							<th> <input type="text" name="email"
+								style="width: 100%"> </th>
+						</tr>
+						<tr>
+							<th> Broj telefona </th>
+							<th> <input type="text" name="phone"
+								style="width: 100%"> </th>
+						</tr>
+						<tr>
+							<th> Vrsta fotografiranja </th>
+							<th style="text-align: left">
+								<label>
+									<input type="checkbox"
+										name="services[trudnice]"
+										value="1">
+									Fotografiranje trudnica
+								</label>
+								<br>
+								<label>
+									<input type="checkbox"
+										name="services[bebe]"
+										value="1">
+									Fotografiranje beba
+								</label>
+								<br>
+								<label>
+									<input type="checkbox"
+										name="services[rodendan]"
+										value="1">
+									Rođendansko fotografiranje
+								</label>
+								<br>
+								<label>
+									<input type="checkbox"
+										name="services[poklon_bon]"
+										value="1">
+									Poklon bon
+								</label>
+								<br>
+								<label>
+									<input type="checkbox"
+										name="services[ostalo]"
+										value="1">
+									Ostalo
+								</label>
+							</th>
+						</tr>
+						<tr>
+							<th> Poruka </th>
+							<th> <textarea name="message"></textarea> </th>
+						</tr>
+						<tr>
+							<th></th>
+							<th style="text-align: right">
+								<input type="submit" value="Pošalji" class="btn">
+							</th>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+      </div>
+      <script src="{{ "/assets/js/contact.js" | absolute_url }}"></script>
+    </div>
+
+    {% include footer.html %}
+    {% include foot.html %}
+  </body>
+</html>

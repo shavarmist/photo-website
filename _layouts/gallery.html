@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {% if page.title %}
+	  <h1 class="page-header">{{ page.title }}</h1>
+	{% endif %}
+        {{ content }}
+      </div>
+      <script src="{{ "/assets/js/gallery.js" | absolute_url }}"></script>
+    </div>
+
+    {% include footer.html %}
+    {% include foot.html %}
+  </body>
+</html>

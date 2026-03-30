@@ -1,0 +1,64 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: Baby Bloom Photography
+description: Bay is a minimal Jekyll Theme.
+baseurl: ""
+url: "https://www.babybloomphotography.com"
+og_image: /assets/img/profile-pic.jpg
+google_analytics: "UA-XXXXXXXXX-X"
+
+header:
+  pages:
+
+    - name: Početna
+      slug: /
+    - name: O nama
+      slug: /o-nama
+    - name: Galerija
+      slug: /galerija
+    - name: Ponuda
+      slug: /ponuda
+    - name: Cjenik
+      slug: /cjenik
+    - name: Blog
+      slug: /blog
+    - name: Kontakt
+      slug: /kontakt
+
+footer:
+  contact:
+    - type: email
+      name: Email
+      value: info@babybloomphotography.com
+    - type: phone
+      name: "098 9358 411"
+      link: tel:0989358411
+  follow:
+    - type: instagram
+      name: Instagram
+      link: https://instagram.com/babybloomphotography
+      username: "@babybloomphotography"
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+plugins:
+  - jekyll-feed
+
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Used for defeating caching
+version: 1

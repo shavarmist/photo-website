@@ -1,0 +1,6 @@
+
+ * Objavi na github
+ * Namjesti da se moze uredivati preko DecapCMS-a
+ * Posalji upute na mail za pristup DecapCMS-u
+ * Namjesti email forwarding
+
