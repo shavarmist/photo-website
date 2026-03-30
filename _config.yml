@@ -29,8 +29,8 @@ header:
 footer:
   contact:
     - type: email
-      name: Email
-      value: info@babybloomphotography.com
+      name: email
+      link: mailto:info@babybloomphotography.com
     - type: phone
       name: "098 9358 411"
       link: tel:0989358411

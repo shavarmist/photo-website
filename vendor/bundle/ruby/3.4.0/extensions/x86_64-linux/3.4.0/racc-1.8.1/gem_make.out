@@ -1,0 +1,18 @@
+current directory: /home/franx/Desktop/babybloomphotography2/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/usr/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/franx/Desktop/babybloomphotography2/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make -j5 DESTDIR\= sitearchdir\=./.gem.20260330-17090-9tk9hf sitelibdir\=./.gem.20260330-17090-9tk9hf clean
+
+current directory: /home/franx/Desktop/babybloomphotography2/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make -j5 DESTDIR\= sitearchdir\=./.gem.20260330-17090-9tk9hf sitelibdir\=./.gem.20260330-17090-9tk9hf
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/franx/Desktop/babybloomphotography2/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make -j5 DESTDIR\= sitearchdir\=./.gem.20260330-17090-9tk9hf sitelibdir\=./.gem.20260330-17090-9tk9hf install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20260330-17090-9tk9hf/racc
+
+current directory: /home/franx/Desktop/babybloomphotography2/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260330-17090-9tk9hf sitelibdir\=./.gem.20260330-17090-9tk9hf clean

@@ -4,7 +4,7 @@ source "https://rubygems.org"
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
 #     bundle exec jekyll serve
-gem "jekyll", "~> 4.3.4"
+gem "jekyll"
 
 # Plugins
 group :jekyll_plugins do
@@ -22,3 +22,8 @@ end
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 gem "csv"
+
+gem "bigdecimal"
+
+gem "github-pages", group: :jekyll_plugins
+
