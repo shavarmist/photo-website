@@ -40,9 +40,6 @@ content:
         type: string
         default: home
 
-      - name: body
-        type: rich-text
-
       - name: profile-picture
         label: Slika
         type: object
@@ -54,3 +51,6 @@ content:
           - name: alt
             label: alt tekst
             type: string
+
+      - name: body
+        type: rich-text
