@@ -39,3 +39,6 @@ content:
         label: layout
         type: string
         default: home
+
+      - name: body
+        type: rich-text
