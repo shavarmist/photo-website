@@ -1,85 +1,20 @@
-media:
-  input: assets/img
-  output: /assets/img
-
 content:
-  # 🟢 Individual pages
-  - name: pages
-    label: Pages
-    type: file
-    path: ""
-    items:
-      - name: index
-        label: Home
-        path: index.md
-
-      - name: blog
-        label: Blog
-        path: blog.md
-
-      - name: cjenik
-        label: Cjenik
-        path: cjenik.md
-
-      - name: galerija
-        label: Galerija
-        path: galerija.md
-
-      - name: kontakt
-        label: Kontakt
-        path: kontakt.md
-
-      - name: o_nama
-        label: O nama
-        path: o-nama.md
-
-      - name: ponuda
-        label: Ponuda
-        path: ponuda.md
-
-      - name: not_found
-        label: 404
-        path: 404.md
-
-    fields:
-      - name: title
-        label: Title
-        type: string
-
-      - name: body
-        label: Content
-        type: string
-
-  # 🟣 Blog posts (_posts)
-  - name: posts
-    label: Blog Posts
+  - name: blog
+    label: Blog
     type: collection
     path: _posts
-    filename: "{year}-{month}-{day}-{slug}.md"
-
     fields:
       - name: layout
         type: string
         default: post
-        hidden: true
-
       - name: title
-        label: Title
         type: string
-
       - name: date
-        label: Date
         type: string
-        default: "{{now}}"
-
+        default: '{{now}}'
       - name: blurb
-        label: Blurb
         type: string
-
       - name: og_image
-        label: OG Image
         type: string
-
       - name: body
-        label: Content
-        type: string
+        type: rich-text
