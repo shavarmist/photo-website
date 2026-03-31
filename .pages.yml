@@ -31,7 +31,7 @@ content:
         type: rich-text
 
   - name: home
-    label: Home
+    label: Pocetna
     type: file
     path: index.md
     fields:
