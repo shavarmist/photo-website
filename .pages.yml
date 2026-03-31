@@ -54,3 +54,142 @@ content:
 
       - name: body
         type: rich-text
+
+  - name: blog
+    label: Blog
+    type: file
+    path: blog.md
+    fields:
+      - name: layout
+        label: Layout
+        type: string
+        default: blog
+
+      - name: slug
+        label: URL
+        type: string
+        default: /blog
+
+      - name: title
+        label: Title
+        type: string
+        default: Blog
+
+      - name: body
+        type: rich-text
+
+  - name: cjenik
+    label: Cjenik
+    type: file
+    path: cjenik.md
+    fields:
+      - name: layout
+        label: Layout
+        type: string
+        default: default
+
+      - name: slug
+        label: URL
+        type: string
+        default: /cjenik
+
+      - name: title
+        label: Title
+        type: string
+        default: Cjenik
+
+      - name: body
+        type: rich-text
+
+  - name: gallery
+    label: Galerija
+    type: file
+    path: galerija.md
+    fields:
+      - name: layout
+        label: Layout
+        type: string
+        default: gallery
+
+      - name: slug
+        label: URL
+        type: string
+        default: /galerija
+
+      - name: title
+        label: Title
+        type: string
+        default: Galerija
+
+      - name: body
+        type: rich-text
+
+  - name: kontakt
+    label: Kontakt
+    type: file
+    path: kontakt.md
+    fields:
+      - name: layout
+        label: Layout
+        type: string
+        default: contact
+
+      - name: slug
+        label: URL
+        type: string
+        default: /kontakt
+
+      - name: title
+        label: Title
+        type: string
+        default: Kontakt
+
+      - name: body
+        type: rich-text
+
+  - name: o-nama
+    label: O nama
+    type: file
+    path: o-nama.md
+    fields:
+      - name: layout
+        label: Layout
+        type: string
+        default: default
+
+      - name: slug
+        label: URL
+        type: string
+        default: /o-nama
+
+      - name: title
+        label: Title
+        type: string
+        default: O nama
+
+      - name: body
+        type: rich-text
+
+  - name: ponuda
+    label: Ponuda
+    type: file
+    path: ponuda.md
+    fields:
+      - name: layout
+        label: Layout
+        type: string
+        default: default
+
+      - name: slug
+        label: URL
+        type: string
+        default: /ponuda
+
+      - name: title
+        label: Title
+        type: string
+        default: Ponuda
+
+      - name: body
+        type: rich-text
+      
