@@ -1,20 +1,31 @@
 content:
-  - name: blog
+  - name: posts
     label: Blog
     type: collection
     path: _posts
+    filename: {template: '{year}-{month}-{day}-{primary}.md', field: create}
     fields:
       - name: layout
+        label: Layout
         type: string
         default: post
-      - name: title
-        type: string
+
       - name: date
+        label: Date
+        type: date
+        default: now
+        
+      - name: title
+        label: Title
         type: string
-        default: '{{now}}'
+
       - name: blurb
+        label: Blurb
         type: string
+
       - name: og_image
+        label: Thumbnail
         type: string
+
       - name: body
         type: rich-text
