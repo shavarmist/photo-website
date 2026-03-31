@@ -42,3 +42,15 @@ content:
 
       - name: body
         type: rich-text
+
+      - name: profile-picture
+        label: Slika
+        type: object
+        fields:
+          - name: src
+            label: URL
+            type: string
+
+          - name: alt
+            label: alt tekst
+            type: string
