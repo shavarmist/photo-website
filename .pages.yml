@@ -3,7 +3,7 @@ content:
     label: Blog (objave)
     type: collection
     path: _posts/
-    filename: {template: '{year}-{month}-{day}-{title}.md', field: create}
+    filename: {template: '{year}-{month}-{day}-url_tekst_ovdje.md', field: create}
     fields:
       - name: layout
         label: Layout
