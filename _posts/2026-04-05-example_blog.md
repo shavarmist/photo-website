@@ -6,8 +6,11 @@ blurb: Ovo je tekst koji ce se prikazati kao kratki sadrzaj ispod linka
 og_image: https://ww2.babybloomphotography.com/assets/img/profile-pic.jpg? <-
   Slika za ovaj post
 ---
-![](/assets/img/content/post-example/Banner.jpg)
+![](https://ww2.babybloomphotography.com/assets/img/content/post-example/Banner.jpg)
 
 # Veliki naslov
+
 ## Manji naslov
+
 ### Jos manji naslov
+
